@@ -16,7 +16,7 @@ margin: 0;
 }
 
 .container {
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
     background-color: #fff;
 }
@@ -210,6 +210,11 @@ justify-content: end;
 padding-top: 10px;
 }
 
+.footer-bar ul li a{
+    text-decoration: none;
+    color:#000000;
+}
+
 .footer_p{
     padding-left: 96px;
 }
@@ -225,6 +230,12 @@ padding-top: 10px;
 }
 
 @media screen and (max-width: 450px) {
+
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+        background-color: #fff;
+    }
 
 .nav-block {
     display: block;
@@ -295,6 +306,3 @@ display: none;
 }
 }
 
-@media screen and (max-width: 450px) {
-
-}
