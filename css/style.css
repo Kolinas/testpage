@@ -16,9 +16,8 @@ margin: 0;
 }
 
 .container {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
-    /* border:1px solid red; */
     background-color: #fff;
 }
 
@@ -187,7 +186,7 @@ justify-content: end;
     padding: 93px 39px 205px 318px;
 }
 
-.foot-logo {
+.foot_logo {
     display: flex;
     justify-content: center;
     padding: 60px 0px;
@@ -211,11 +210,21 @@ justify-content: end;
 padding-top: 10px;
 }
 
-.footer-p{
+.footer_p{
     padding-left: 96px;
 }
 
-@media (max-width: 450px) and (min-width: 200px){
+@media screen and (max-width: 1200px) {
+
+    /* .container {
+        width: 98%;
+        margin: 0 auto;
+        background-color: #fff;
+    } */
+
+}
+
+@media screen and (max-width: 450px) {
 
 .nav-block {
     display: block;
@@ -233,22 +242,59 @@ text-align: center;
     justify-content: center;
     padding: 37px 39px 31px 0px;
 }
+
 .main-image {
     text-align: center;
     height: 250px;
 }
+
 .gallery-top {
 display: block;
 }
+
 .gender {
     display: flex;
     justify-content: center;
 }
+
 .galpos {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    padding: 0px;
 }
+
 .heart:before {
 display: none;
 }
+
+.blackheart:before {
+    display: none;
+}
+
+.button {
+        display: none;
+    }
+
+.gallery-bottom {
+    display: block;
+    padding: 0px;
+}
+.galpos_bottom {
+    text-align: center;
+    padding: 0px;
+}
+.foot_logo{
+    padding: 10px 0px
+}
+.footer-bar{
+    justify-content: center;
+    width: 100%;
+}
+.footer_p{
+    text-align: center;
+    padding: 0px;
+}
+}
+
+@media screen and (max-width: 450px) {
+
 }
